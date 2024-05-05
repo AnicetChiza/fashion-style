@@ -48,29 +48,17 @@ function startValueAnimation() {
     });
 }
 
-//swippfor testimonial 
-var swiper = new Swiper(".mySwiper", {
-    slidesPerGroup: 1,
-    loop: true,
-    fade: true,
-    grubCursor: true,
-    loopFillGroupWithBlank: true,
-    navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-    },
-    breakpoints: {
-        640: {
-            slidesPerView: 1,
-            spaceBetween: 40,
-        },
-        768: {
-            slidesPerView: 2,
-            spaceBetween: 40,
-        },
-        1024: {
-            slidesPerView: 3,
-            spaceBetween: 50,
-        },
-    },
+//swipper
+document.addEventListener('DOMContentLoaded', function() {
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerGroup: 1,
+        loop: true,
+        fade: true,
+        grabCursor: true,
+        loopFillGroupWithBlank: true,
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        }
+    });
 });

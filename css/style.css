@@ -405,7 +405,15 @@ span {
     margin: auto;
 }
 
+.testimonial-items {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
 .slide {
+    width: 100%;
+    margin: auto;
     margin-top: 30px;
     font-family: "Lora", serif;
     text-align: center;
@@ -414,10 +422,14 @@ span {
     align-items: center;
 }
 
-.slide p {
+.slide div {
+    width: 60%;
+    margin: auto;
+}
+
+.slide div p {
     font-style: italic;
     margin-top: 15px;
-    width: 60rem;
 }
 
 .slide img {
