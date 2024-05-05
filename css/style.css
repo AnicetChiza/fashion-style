@@ -480,8 +480,9 @@ footer .media-sociaux {
 }
 
 footer .media-sociaux i {
-    padding: 15px;
+    padding: 15px 15px;
     border-radius: 50px;
-    background: linear-gradient(90deg, #f0efef65, #f0efef65);
-    box-shadow: 9px 9px 18px #abababad, -9px -9px 18px #abababad;
+    color: var(--blueColor);
+    background: #dde1e7;
+    box-shadow: 7px 7px 8px #cbcfd5, -7px -7px 8px #eff3f9;
 }
