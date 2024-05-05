@@ -303,6 +303,13 @@ span {
 /*** NEWSLETTER ***/
 
 .newsletter {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: linear-gradient(to right, var(--blueShadow) 0%, var(--grayColor) 100%), url('../images/objectif/news-letter.jpg') no-repeat;
+    background-size: cover;
+}
+
+.newsletter-items {
     display: flex;
     gap: 10px;
     -webkit-column-gap: 10px;
