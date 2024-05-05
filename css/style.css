@@ -397,6 +397,36 @@ span {
 
 /*** TESTIMONIALS ***/
 
+.slide {
+    font-family: "Lora", serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slide p {
+    font-style: italic;
+    margin-top: 15px;
+    width: 60rem;
+}
+
 .slide img {
-    width: 15rem;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.slide img:hover {
+    transform: scale(1.1);
+}
+
+.slide i {
+    font-size: 2rem;
+    font-weight: 700;
+    font-style: italic;
+    margin-top: 30px;
+    color: var(--blueColor);
 }
