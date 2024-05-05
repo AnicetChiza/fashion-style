@@ -350,3 +350,27 @@ span {
     font-weight: 700;
     background-color: var(--blueColor);
 }
+
+
+/*** BLOG ***/
+
+.blog-content {
+    display: grid;
+    gap: 30px;
+    -webkit-column-gap: 30px;
+    grid-template-columns: auto auto auto;
+}
+
+.blog-items {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.blog-items div p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.blog-items img {
+    width: 100%;
+}
