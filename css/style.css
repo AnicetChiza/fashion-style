@@ -303,8 +303,8 @@ span {
 /*** NEWSLETTER ***/
 
 .newsletter {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     background: linear-gradient(to right, var(--blueShadow) 0%, var(--grayColor) 100%), url('../images/objectif/news-letter.jpg') no-repeat;
     background-size: cover;
 }
@@ -312,6 +312,40 @@ span {
 .newsletter-items {
     display: flex;
     gap: 10px;
+    align-items: center;
     -webkit-column-gap: 10px;
     justify-content: space-between;
+}
+
+.newsletter-items h5 {
+    font-size: 1.2rem;
+    color: var(--whiteColor);
+    font-family: 'Lora', serif;
+}
+
+.newsletter-items p {
+    margin-top: 10px;
+    color: var(--whiteColor);
+}
+
+.newsletter-items form {
+    display: flex;
+}
+
+.newsletter-items form input {
+    border: none;
+    padding: 10px 15px;
+    font-family: 'Lora', serif;
+    background-color: var(--whiteColor);
+}
+
+.newsletter-items form button {
+    border: none;
+    outline: none;
+    font-family: 'Lora', serif;
+    color: var(--whiteColor);
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: 700;
+    background-color: var(--blueColor);
 }
