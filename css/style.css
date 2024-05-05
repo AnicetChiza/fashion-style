@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*** RESET ***/
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+input {
+    outline: none;
+}
+
+
+/*** COLORS TO BE USED ***/
+
+:root {
+    --whiteColor: #fff;
+    --blackColor: #000;
+    --blueColor: #064469;
+    --blueShadow: #064569ea;
+    --grayColor: #d9d9d999;
+}
+
+
+/*** PADDINGS ***/
+
+.paddings {
+    padding: 20px 150px;
+}
+
+
+/*** BIG TITLES ***/
+
+h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-style: italic;
+    color: var(--blueColor);
+    font-family: "Lora", serif;
+}
+
+h4 {
+    width: 130px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border-bottom: 8px solid var(--blueColor);
+}
+
+
+/*** BODY ***/
+
+body {
+    font-size: 1rem;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+
+/*** HEADER ***/
+
+header {
+    width: fit-content;
+    padding: 25px 60px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+    position: fixed;
+    top: 85%;
+    left: 50%;
+    z-index: 3;
+    transform: translate(-50%, -50%);
+    background-color: var(--whiteColor);
+    box-shadow: 0px 1px 10px var(--grayColor);
+}
+
+header .header-content {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    -webkit-column-gap: 60px;
+}
+
+header .header-content a i {
+    color: var(--blueColor);
+    font-size: 1.4rem;
+}
+
+
+/*** HOME PAGE ***/
+
+.home-page {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    transition: background-image 0.5s ease;
+}
+
+.home-page .home-items {
+    height: 100vh;
+    animation-delay: 0.4s;
+    animation: animate 5s linear infinite;
+    background: linear-gradient(100deg, var(--blueShadow), var(--grayColor));
+}
+
+@keyframes animate {
+    0% {
+        transform: translateY(-5px);
+    }
+    50% {
+        transform: translateY(5px);
+    }
+}
+
+.home-page .container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.home-page .container h2 {
+    padding: 20px 20px;
+    font-size: 3.2rem;
+    font-family: "Lora", serif;
+    font-weight: 800;
+    font-style: italic;
+    color: var(--blueColor);
+    border-top-left-radius: 20px;
+    border-top: 0.01px solid var(--whiteColor);
+    border-left: 5px solid var(--whiteColor);
+}
+
+.home-page .container p {
+    width: 40rem;
+    margin-top: 10px;
+    text-align: right;
+    font-size: 1.2rem;
+    font-style: italic;
+    color: var(--whiteColor);
+    font-family: "Lora", serif;
+}
+
+
+/*** ABOUT US ***/
+
+.about-us {
+    margin-top: 70px;
+}
+
+.about-us h3 {
+    text-align: center;
+}
+
+.about-us h4 {
+    margin: auto;
+}
+
+.about-us i {
+    font-size: 2.5rem;
+    font-style: italic;
+    color: var(--grayColor);
+}
+
+.about-us p {
+    margin-top: 15px;
+    text-align: center;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 1.2rem;
+    font-family: "Lora", serif;
+}
+
+
+/*** OBJECTIF ***/
+
+.goal {
+    margin-top: 70px;
+    background-color: var(--grayColor);
+}
+
+.goal-items {
+    display: flex;
+    align-items: center;
+    font-style: italic;
+    font-size: 1.1rem;
+    font-family: 'Lora', serif;
+}
+
+
+/*** WRAPPER ***/
+
+.wrapper {
+    margin-top: 70px;
+}
+
+.wrapper-container {
+    display: flex;
+    gap: 10px;
+    -webkit-column-gap: 10px;
+    justify-content: space-between;
+}
+
+.wrapper-container .counter {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    -webkit-column-gap: 10px;
+}
+
+.wrapper-container .counter i {
+    font-size: 2rem;
+    margin-bottom: 5px;
+    color: var(--blueColor);
+}
+
+.wrapper-container .counter p,
+span {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: var(--blueColor);
+    font-weight: 700;
+    font-family: "Lora", serif;
+}
+
+
+/*** NOS PRODUITS ***/
+
+.products {
+    margin-top: 70px;
+    background-color: var(--grayColor);
+}
+
+.products h3 {
+    text-align: center;
+}
+
+.products h4 {
+    margin: auto;
+}
+
+.products .products-items {
+    display: grid;
+    gap: 20px;
+    -webkit-column-gap: 20px;
+    grid-template-columns: auto auto auto auto;
+}
+
+.products .our-prod {
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid var(--grayColor);
+}
+
+.products .our-prod div {
+    margin-top: 10px;
+    padding: 20px 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.products .our-prod p,
+span {
+    font-size: 1rem;
+}
+
+.products .our-prod img {
+    width: 100%;
+    padding: 20px 20px;
+    transition: transform 0.3s ease;
+}
+
+.products .our-prod img:hover {
+    transform: scale(1.1);
+}
+
+.products .see-more {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: fit-content;
+    margin: auto;
+    font-weight: 700;
+    font-style: italic;
+    margin-top: 20px;
+    padding: 15px 30px;
+    color: var(--whiteColor);
+    font-family: "Lora", serif;
+    background-color: var(--blueColor);
+}
+
+
+/*** NEWSLETTER ***/
+
+.newsletter {
+    display: flex;
+    gap: 10px;
+    -webkit-column-gap: 10px;
+    justify-content: space-between;
+}
