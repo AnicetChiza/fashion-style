@@ -333,6 +333,7 @@ span {
 }
 
 .newsletter-items form input {
+    width: 100%;
     border: none;
     padding: 10px 15px;
     font-family: 'Lora', serif;
