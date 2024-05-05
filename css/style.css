@@ -397,7 +397,16 @@ span {
 
 /*** TESTIMONIALS ***/
 
+.testimonial h3 {
+    text-align: center;
+}
+
+.testimonial h4 {
+    margin: auto;
+}
+
 .slide {
+    margin-top: 30px;
     font-family: "Lora", serif;
     text-align: center;
     display: flex;
