@@ -457,3 +457,31 @@ form button {
     color: var(--whiteColor);
     background-color: var(--blueColor);
 }
+
+
+/*** FOOTER ***/
+
+footer {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 130px;
+    background-color: var(--grayColor);
+}
+
+footer p {
+    margin-bottom: 20px;
+}
+
+footer .media-sociaux {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+footer .media-sociaux i {
+    padding: 15px;
+    border-radius: 50px;
+    background: linear-gradient(90deg, #f0efef65, #f0efef65);
+    box-shadow: 9px 9px 18px #abababad, -9px -9px 18px #abababad;
+}
