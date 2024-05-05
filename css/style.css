@@ -393,3 +393,67 @@ span {
     font-family: "Lora", serif;
     background-color: var(--blueColor);
 }
+
+
+/*** CONTACT ***/
+
+.contact-container {
+    display: flex;
+    gap: 40px;
+    width: 100%;
+    margin-top: 20px;
+    -webkit-column-gap: 40px;
+}
+
+.bloc-contact .items {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    font-family: "Lora", serif;
+    font-style: italic;
+    -webkit-column-gap: 10px;
+}
+
+.bloc-contact .items i {
+    padding: 20px 20px;
+    border-radius: 50%;
+    color: var(--blueColor);
+    background-color: var(--grayColor);
+}
+
+.contact-form {
+    flex-grow: 1;
+}
+
+form input,
+textarea {
+    width: 100%;
+    border: none;
+    outline: none;
+    background: unset;
+    padding: 15px 20px;
+    margin-top: 10px;
+    font-family: "Lora", serif;
+    border: 1px solid var(--grayColor);
+}
+
+.form-input {
+    display: flex;
+    gap: 10px;
+    -webkit-column-gap: 10px;
+}
+
+form button {
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    background: unset;
+    padding: 15px 20px;
+    border-radius: 25px;
+    font-style: oblique;
+    font-weight: 700;
+    font-family: "Lora", serif;
+    color: var(--whiteColor);
+    background-color: var(--blueColor);
+}
