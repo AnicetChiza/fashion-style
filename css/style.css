@@ -134,9 +134,9 @@ header .header-content a i {
     font-weight: 800;
     font-style: italic;
     color: var(--blueColor);
-    border-top-left-radius: 20px;
+    border-top-right-radius: 30px;
     border-top: 0.01px solid var(--whiteColor);
-    border-left: 5px solid var(--whiteColor);
+    border-right: 5px solid var(--whiteColor);
 }
 
 .home-page .container p {
@@ -330,24 +330,22 @@ span {
 
 .newsletter-items form {
     display: flex;
-}
-
-.newsletter-items form input {
-    width: 100%;
-    border: none;
-    padding: 10px 15px;
-    font-family: 'Lora', serif;
     background-color: var(--whiteColor);
 }
 
-.newsletter-items form button {
+.newsletter-items form .news-input {
+    width: 100%;
+    border: none;
+    margin-top: 0px;
+    font-family: 'Lora', serif;
+}
+
+.newsletter-items form .send {
     border: none;
     outline: none;
+    padding: 10px 15px;
     font-family: 'Lora', serif;
     color: var(--whiteColor);
-    padding-left: 15px;
-    padding-right: 15px;
-    font-weight: 700;
     background-color: var(--blueColor);
 }
 
@@ -416,10 +414,15 @@ span {
 }
 
 .bloc-contact .items i {
-    padding: 20px 20px;
+    padding: 15px 15px;
     border-radius: 50%;
     color: var(--blueColor);
-    background-color: var(--grayColor);
+    background: #dde1e7;
+    box-shadow: inset 7px 7px 8px #cbcfd5, inset -7px -7px 8px #eff3f9;
+}
+
+.bloc-contact .items i:hover {
+    box-shadow: 7px 7px 8px #cbcfd5, -7px -7px 8px #eff3f9;
 }
 
 .contact-form {
@@ -444,7 +447,7 @@ textarea {
     -webkit-column-gap: 10px;
 }
 
-form button {
+form .submit {
     border: none;
     outline: none;
     margin-top: 10px;
@@ -481,7 +484,7 @@ footer .media-sociaux {
 
 footer .media-sociaux i {
     padding: 15px 15px;
-    border-radius: 50px;
+    border-radius: 50%;
     color: var(--blueColor);
     background: #dde1e7;
     box-shadow: 7px 7px 8px #cbcfd5, -7px -7px 8px #eff3f9;
