@@ -68,7 +68,7 @@ const blog = document.querySelectorAll('.blog-items');
 let currents = 0;
 
 // Cacher toutes les divs blog-items sauf la première
-blogItems.forEach((item, index) => {
+blog.forEach((item, index) => {
     if (index !== currents) {
         item.style.display = 'none';
     }
