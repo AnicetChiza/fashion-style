@@ -61,24 +61,31 @@ blogItems.forEach((item, index) => {
     }
 });
 
+// Récupérer toutes les divs blog-items
+const blog = document.querySelectorAll('.blog-items');
+
+// Initialiser un index pour suivre l'image actuellement affichée
+let currents = 0;
+
+// Cacher toutes les divs blog-items sauf la première
+blogItems.forEach((item, index) => {
+    if (index !== currents) {
+        item.style.display = 'none';
+    }
+});
+
 // Fonction pour afficher l'élément suivant
 function showNextItem() {
-    // Masquer l'élément actuellement affiché
-    blogItems[current].style.display = 'none';
-    // Mettre à jour l'index pour afficher le prochain élément
-    current = (current + 1) % blogItems.length;
-    // Afficher le prochain élément
-    blogItems[current].style.display = 'block';
+    blog[currents].style.display = 'none';
+    currents = (currents + 1) % blogItems.length;
+    blog[currents].style.display = 'block';
 }
 
 // Fonction pour afficher l'élément précédent
 function showPreviousItem() {
-    // Masquer l'élément actuellement affiché
-    blogItems[current].style.display = 'none';
-    // Mettre à jour l'index pour afficher l'élément précédent
-    current = (current - 1 + blogItems.length) % blogItems.length;
-    // Afficher l'élément précédent
-    blogItems[current].style.display = 'block';
+    blog[currents].style.display = 'none';
+    currents = (currents - 1 + blogItems.length) % blogItems.length;
+    blog[currents].style.display = 'block';
 }
 
 // Ajouter des écouteurs d'événements aux boutons Précédent et Suivant
