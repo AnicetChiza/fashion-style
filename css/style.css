@@ -482,14 +482,14 @@ footer .media-sociaux {
     justify-content: center;
 }
 
-footer .media-sociaux i {
-    padding: 15px 15px;
+footer .media-sociaux a {
+    padding: 15px 16px;
     border-radius: 50%;
     color: var(--blueColor);
     background: #dde1e7;
     box-shadow: 7px 7px 8px #cbcfd5, -7px -7px 8px #eff3f9;
 }
 
-footer .media-sociaux i:hover {
+footer .media-sociaux a:hover {
     box-shadow: inset 7px 7px 8px #cbcfd5, inset -7px -7px 8px #eff3f9;
 }

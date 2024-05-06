@@ -18,7 +18,7 @@ function changeBg() {
     page.style.backgroundImage = bg;
 }
 
-setInterval(changeBg, 4000);
+setInterval(changeBg, 2500);
 
 // Événement de chargement de la page
 document.addEventListener('DOMContentLoaded', startValueAnimation);
