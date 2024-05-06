@@ -478,7 +478,7 @@ footer p {
 
 footer .media-sociaux {
     display: flex;
-    gap: 30px;
+    gap: 20px;
     justify-content: center;
 }
 
