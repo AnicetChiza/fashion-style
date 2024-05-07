@@ -371,6 +371,21 @@ span {
     font-size: 0.8rem;
 }
 
+.blog a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: fit-content;
+    margin: auto;
+    font-weight: 700;
+    font-style: italic;
+    margin-top: 20px;
+    padding: 15px 30px;
+    color: var(--whiteColor);
+    font-family: "Lora", serif;
+    background-color: var(--blueColor);
+}
+
 
 /*** CONTACT ***/
 
