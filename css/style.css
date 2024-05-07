@@ -352,42 +352,23 @@ span {
 
 /*** BLOG ***/
 
-.blog-content {
-    display: grid;
-    grid-template-columns: auto auto auto;
-}
-
-.blog-items {
-    width: 30%;
+.blog-item {
     margin-top: 20px;
 }
 
-.blog-items div p {
-    margin-top: 10px;
-    margin-bottom: 10px;
+.blog-item img {
+    width: 20rem;
 }
 
-.blog-items div p span {
-    font-size: 0.8rem;
-}
-
-.blog-items img {
-    width: 100%;
-}
-
-.blog .see-more {
+.blog-item div {
+    margin-top: 15px;
     display: flex;
-    align-items: center;
-    gap: 10px;
-    width: fit-content;
-    margin: auto;
-    font-weight: 700;
-    font-style: italic;
-    margin-top: 20px;
-    padding: 15px 30px;
-    color: var(--whiteColor);
-    font-family: "Lora", serif;
-    background-color: var(--blueColor);
+    flex-direction: column;
+    gap: 7px;
+}
+
+.blog-item div span {
+    font-size: 0.8rem;
 }
 
 
