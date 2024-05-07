@@ -437,6 +437,29 @@ span {
     color: var(--blueShadow);
 }
 
+.test-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+    -webkit-column-gap: 10px;
+}
+
+.test-btn button {
+    border: none;
+    outline: none;
+    font-size: 1.3rem;
+    padding: 10px 10px;
+    color: var(--blueColor);
+    background: #dde1e7;
+    cursor: pointer;
+    box-shadow: 7px 7px 8px #cbcfd5, -7px -7px 8px #eff3f9;
+}
+
+.test-btn button:hover {
+    box-shadow: inset 7px 7px 8px #cbcfd5, inset -7px -7px 8px #eff3f9;
+}
+
 
 /*** CONTACT ***/
 
