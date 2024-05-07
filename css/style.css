@@ -395,6 +395,49 @@ span {
 }
 
 
+/*** TESTIMONIAL ***/
+
+.testimonial h3 {
+    text-align: center;
+}
+
+.testimonial h4 {
+    margin: auto;
+}
+
+.testimonial-content {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.testimonial-item {
+    text-align: center;
+}
+
+.testimonial-item img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.testimonial-item div {
+    width: 50rem;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.testimonial-item div i {
+    font-size: 2.5rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: var(--blueShadow);
+}
+
+
 /*** CONTACT ***/
 
 .contact-container {
