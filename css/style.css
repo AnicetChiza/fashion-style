@@ -237,6 +237,8 @@ span {
     font-size: 1.3rem;
     margin-bottom: 10px;
     box-shadow: 7px 7px 8px #cbcfd5, -7px -7px 8px #eff3f9;
+    animation-delay: 0.4s;
+    animation: animate 5s linear infinite;
 }
 
 .choose-us-items i:hover {
