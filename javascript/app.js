@@ -60,3 +60,34 @@ blogItems.forEach((item, index) => {
         item.style.display = 'none';
     }
 });
+
+// Récupérer toutes les divs blog-items
+const blog = document.querySelectorAll('.testimonial-item');
+
+// Initialiser un index pour suivre l'image actuellement affichée
+let currents = 0;
+
+// Cacher toutes les divs blog-items sauf la première
+blog.forEach((item, index) => {
+    if (index !== currents) {
+        item.style.display = 'none';
+    }
+});
+
+// Fonction pour afficher l'élément suivant
+function showNextItem() {
+    blog[currents].style.display = 'none';
+    currents = (currents + 1) % blog.length;
+    blog[currents].style.display = 'block';
+}
+
+// Fonction pour afficher l'élément précédent
+function showPreviousItem() {
+    blog[currents].style.display = 'none';
+    currents = (currents - 1 + blog.length) % blog.length;
+    blog[currents].style.display = 'block';
+}
+
+// Ajouter des écouteurs d'événements aux boutons Précédent et Suivant
+document.querySelector('.prevButton').addEventListener('click', showPreviousItem);
+document.querySelector('.nextButton').addEventListener('click', showNextItem);
