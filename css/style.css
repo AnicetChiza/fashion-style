@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 /*** RESET ***/
 
@@ -29,7 +28,7 @@ input {
 /*** PADDINGS ***/
 
 .paddings {
-    padding: 20px 150px;
+    padding: 20px 100px;
 }
 
 
@@ -41,9 +40,7 @@ h3 {
     margin-top: 10px;
     margin-bottom: 10px;
     font-weight: 700;
-    font-style: italic;
     color: var(--blueColor);
-    font-family: "Lora", serif;
 }
 
 h4 {
@@ -127,34 +124,15 @@ header .header-content a i {
     justify-content: center;
 }
 
-.home-page .container h2 {
-    padding: 20px 20px;
-    font-size: 3.2rem;
-    font-family: "Lora", serif;
-    font-weight: 800;
-    font-style: italic;
-    color: var(--blueColor);
-    border-top-right-radius: 30px;
-    border-top: 0.01px solid var(--whiteColor);
-    border-right: 5px solid var(--whiteColor);
-}
-
 .home-page .container p {
     width: 40rem;
     margin-top: 10px;
     text-align: right;
-    font-size: 1.2rem;
-    font-style: italic;
     color: var(--whiteColor);
-    font-family: "Lora", serif;
 }
 
 
 /*** ABOUT US ***/
-
-.about-us {
-    margin-top: 70px;
-}
 
 .about-us h3 {
     text-align: center;
@@ -174,9 +152,6 @@ header .header-content a i {
     margin-top: 15px;
     text-align: center;
     font-weight: 500;
-    font-style: italic;
-    font-size: 1.2rem;
-    font-family: "Lora", serif;
 }
 
 
@@ -190,9 +165,6 @@ header .header-content a i {
 .goal-items {
     display: flex;
     align-items: center;
-    font-style: italic;
-    font-size: 1.1rem;
-    font-family: 'Lora', serif;
 }
 
 
@@ -226,10 +198,8 @@ header .header-content a i {
 .wrapper-container .counter p,
 span {
     font-size: 1.2rem;
-    font-style: italic;
     color: var(--blueColor);
     font-weight: 700;
-    font-family: "Lora", serif;
 }
 
 
@@ -291,11 +261,9 @@ span {
     width: fit-content;
     margin: auto;
     font-weight: 700;
-    font-style: italic;
     margin-top: 20px;
     padding: 15px 30px;
     color: var(--whiteColor);
-    font-family: "Lora", serif;
     background-color: var(--blueColor);
 }
 
@@ -320,7 +288,6 @@ span {
 .newsletter-items h5 {
     font-size: 1.2rem;
     color: var(--whiteColor);
-    font-family: 'Lora', serif;
 }
 
 .newsletter-items p {
@@ -337,14 +304,12 @@ span {
     width: 100%;
     border: none;
     margin-top: 0px;
-    font-family: 'Lora', serif;
 }
 
 .newsletter-items form .send {
     border: none;
     outline: none;
     padding: 10px 15px;
-    font-family: 'Lora', serif;
     color: var(--whiteColor);
     background-color: var(--blueColor);
 }
@@ -385,12 +350,9 @@ span {
     gap: 10px;
     width: fit-content;
     margin: auto;
-    font-weight: 700;
-    font-style: italic;
     margin-top: 20px;
     padding: 15px 30px;
     color: var(--whiteColor);
-    font-family: "Lora", serif;
     background-color: var(--blueColor);
 }
 
@@ -476,7 +438,6 @@ span {
     align-items: center;
     gap: 10px;
     margin-top: 10px;
-    font-family: "Lora", serif;
     font-style: italic;
     -webkit-column-gap: 10px;
 }
@@ -505,7 +466,6 @@ textarea {
     background: unset;
     padding: 15px 20px;
     margin-top: 10px;
-    font-family: "Lora", serif;
     border: 1px solid var(--grayColor);
 }
 
@@ -522,9 +482,7 @@ form .submit {
     background: unset;
     padding: 15px 20px;
     border-radius: 25px;
-    font-style: oblique;
     font-weight: 700;
-    font-family: "Lora", serif;
     color: var(--whiteColor);
     background-color: var(--blueColor);
 }
