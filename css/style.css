@@ -206,6 +206,44 @@ span {
 }
 
 
+/*** CHOOSE US ***/
+
+.choose-us h3 {
+    text-align: center;
+}
+
+.choose-us h4 {
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.choose-us-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    -webkit-column-gap: 10px;
+}
+
+.choose-us-items {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.choose-us-items i {
+    padding: 15px 16px;
+    border-radius: 50%;
+    color: var(--blueColor);
+    background: #dde1e7;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    box-shadow: 7px 7px 8px #cbcfd5, -7px -7px 8px #eff3f9;
+}
+
+.choose-us-items i:hover {
+    box-shadow: inset 7px 7px 8px #cbcfd5, inset -7px -7px 8px #eff3f9;
+}
+
+
 /*** NOS PRODUITS ***/
 
 .products {
@@ -418,6 +456,7 @@ span {
     color: var(--blueColor);
     background: #dde1e7;
     cursor: pointer;
+    font-family: "Merriweather", serif;
     box-shadow: 7px 7px 8px #cbcfd5, -7px -7px 8px #eff3f9;
 }
 
@@ -486,6 +525,7 @@ form .submit {
     border-radius: 25px;
     font-weight: 700;
     color: var(--whiteColor);
+    font-family: "Merriweather", serif;
     background-color: var(--blueColor);
 }
 
