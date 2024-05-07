@@ -61,7 +61,7 @@ blogItems.forEach((item, index) => {
     }
 });
 
-// Récupérer toutes les divs blog-items
+/*// Récupérer toutes les divs blog-items
 const blog = document.querySelectorAll('.blog-items');
 
 // Initialiser un index pour suivre l'image actuellement affichée
@@ -90,4 +90,4 @@ function showPreviousItem() {
 
 // Ajouter des écouteurs d'événements aux boutons Précédent et Suivant
 document.getElementById('prevButton').addEventListener('click', showPreviousItem);
-document.getElementById('nextButton').addEventListener('click', showNextItem);
+document.getElementById('nextButton').addEventListener('click', showNextItem);*/
