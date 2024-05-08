@@ -147,6 +147,10 @@ header .header-content a i {
     color: var(--whiteColor);
 }
 
+.home-page .container i {
+    font-size: 1.5rem;
+}
+
 
 /*** ABOUT US ***/
 
@@ -231,7 +235,7 @@ span {
 
 .choose-us-container {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto;
     gap: 10px;
     -webkit-column-gap: 10px;
 }
@@ -239,6 +243,12 @@ span {
 .choose-us-items {
     margin-top: 15px;
     text-align: center;
+}
+
+.choose-us-items h5 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: var(--blueColor);
 }
 
 .choose-us-items i {
