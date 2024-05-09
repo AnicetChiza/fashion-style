@@ -24,7 +24,8 @@ textarea {
     --blueColor: #064469;
     --blueShadow: #064569ea;
     --grayColor: #d9d9d9cd;
-    --blackShadow: #1c1c1c;
+    --gray: #919191ed;
+    --blackShadow: #252525eb;
     --grayShadow: #dbdadab4;
 }
 
@@ -120,7 +121,7 @@ header .header-content a i {
     height: 100vh;
     animation-delay: 0.4s;
     animation: animate 5s linear infinite;
-    background: linear-gradient(100deg, var(--grayColor), var(--blackShadow));
+    background: linear-gradient(to bottom, var(--blackShadow), var(--gray));
 }
 
 @keyframes animate {
@@ -136,14 +137,13 @@ header .header-content a i {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: flex-start;
     justify-content: center;
 }
 
 .home-page .container p {
     width: 45rem;
     margin-top: 10px;
-    text-align: right;
     font-size: 1.2rem;
     color: var(--grayColor);
 }
@@ -425,10 +425,6 @@ span {
 
 /*** TESTIMONIAL ***/
 
-.testimonial {
-    position: relative;
-}
-
 .testimonial h3 {
     text-align: center;
 }
@@ -454,7 +450,7 @@ span {
 }
 
 .testimonial-item div {
-    width: 50rem;
+    width: 60rem;
     margin: auto;
     margin-top: 20px;
     display: flex;
@@ -475,7 +471,7 @@ span {
 
 .test-btn {
     display: flex;
-    position: absolute;
+    justify-content: center;
     top: 50%;
     margin-top: 20px;
     gap: 10px;
@@ -491,11 +487,11 @@ span {
     background: #dde1e7;
     cursor: pointer;
     font-family: "Poppins", sans-serif;
-    box-shadow: 7px 7px 8px #cbcfd5, -7px -7px 8px #eff3f9;
+    box-shadow: inset 7px 7px 8px #cbcfd5, inset -7px -7px 8px #eff3f9;
 }
 
 .test-btn button:hover {
-    box-shadow: inset 7px 7px 8px #cbcfd5, inset -7px -7px 8px #eff3f9;
+    box-shadow: 7px 7px 8px #cbcfd5, -7px -7px 8px #eff3f9;
 }
 
 
