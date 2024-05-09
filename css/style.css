@@ -23,7 +23,7 @@ textarea {
     --blackColor: #000;
     --blueColor: #064469;
     --blueShadow: #064569ea;
-    --grayColor: #d9d9d999;
+    --grayColor: #d9d9d9cd;
     --blackShadow: #1c1c1c;
     --grayShadow: #dbdadab4;
 }
@@ -102,7 +102,7 @@ header .header-content {
 }
 
 header .header-content a i {
-    color: var(--blueColor);
+    color: var(--blackShadow);
     font-size: 1.4rem;
 }
 
@@ -147,7 +147,7 @@ header .header-content a i {
     margin-top: 10px;
     text-align: right;
     font-size: 1.2rem;
-    color: var(--whiteColor);
+    color: var(--grayColor);
 }
 
 .home-page .container i {
