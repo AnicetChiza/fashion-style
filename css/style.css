@@ -425,6 +425,10 @@ span {
 
 /*** TESTIMONIAL ***/
 
+.testimonial {
+    position: relative;
+}
+
 .testimonial h3 {
     text-align: center;
 }
@@ -455,19 +459,24 @@ span {
     margin-top: 20px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
 }
 
-.testimonial-item div i {
-    font-size: 2.5rem;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    color: var(--blueShadow);
+.testimonial-item div p {
+    margin-top: 15px;
+    font-style: italic;
+}
+
+.testimonial-item i {
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 600;
+    color: var(--blueColor);
 }
 
 .test-btn {
     display: flex;
-    justify-content: center;
+    position: absolute;
+    top: 50%;
     margin-top: 20px;
     gap: 10px;
     -webkit-column-gap: 10px;
