@@ -10,11 +10,13 @@ function changeBg() {
         'url("../images/home-page/img8.jpg")',
         'url("../images/home-page/img2.JPG")',
         'url("../images/home-page/img3.JPG")',
+        'url("../images/home-page/img14.jpg")',
         'url("../images/home-page/img4.jpg")',
         'url("../images/home-page/img6.jpg")',
         'url("../images/home-page/img5.JPG")',
         'url("../images/home-page/img6.JPG")',
         'url("../images/home-page/img10.JPG")',
+        'url("../images/home-page/img15.jpg")',
     ];
 
     const page = document.querySelector('.home-page');
