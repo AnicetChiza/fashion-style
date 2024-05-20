@@ -107,6 +107,50 @@ header .header-content a i {
     font-size: 1.4rem;
 }
 
+header .header-content .header-items {
+    position: relative;
+    transition: all 0.2s;
+}
+
+header .header-content .header-items .tooltip {
+    position: absolute;
+    top: -220%;
+    opacity: 0;
+    font-size: 14px;
+    border-radius: 4px;
+    transition: all 0.3s;
+    padding: 10px 10px;
+    color: #064469;
+    pointer-events: none;
+    transform-origin: bottom;
+    background-color: #fff;
+    transform: translateX(-40%) scale(0.8);
+    box-shadow: 0px 0px 10px #0a0a0a4d;
+}
+
+header .header-content .header-items .tooltip::before {
+    position: absolute;
+    content: "";
+    height: 0.6em;
+    width: 0.6em;
+    bottom: -0.3em;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    background-color: #fff;
+}
+
+header .header-content .header-items:hover .tooltip {
+    top: -45px;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    transform: translateX(-50%) scale(1);
+}
+
+header .header-content .header-items:hover {
+    transform: scale(0.9);
+}
+
 
 /*** HOME PAGE ***/
 
