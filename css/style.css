@@ -135,6 +135,16 @@ header .header-content a i {
     }
 }
 
+.home-page .logo {
+    display: flex;
+    gap: 10px;
+    -webkit-column-gap: 10px;
+}
+
+.home-page .logo img {
+    width: 10rem;
+}
+
 .home-page .container {
     height: 100vh;
     display: flex;
