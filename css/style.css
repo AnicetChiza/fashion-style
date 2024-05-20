@@ -141,8 +141,8 @@ header .header-content a i {
     -webkit-column-gap: 10px;
 }
 
-.home-page .logo img {
-    width: 10rem;
+.home-page .container img {
+    width: 6rem;
 }
 
 .home-page .container {
@@ -154,7 +154,7 @@ header .header-content a i {
 }
 
 .home-page .container p {
-    width: 45rem;
+    width: 50rem;
     margin-top: 10px;
     font-size: 1.2rem;
     color: var(--grayColor);
