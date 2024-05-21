@@ -233,7 +233,8 @@ header .header-content .header-items:hover {
     padding: 20px 40px;
     border-radius: 10px;
     transition: 400ms;
-    box-shadow: inset -7px -7px 8px #e6e7e864, inset 7px 7px 8px #cbcfd591;
+    background: #c1c1c218;
+    box-shadow: inset -7px -7px 8px #e6e7e812, inset 7px 7px 8px #cbcfd591;
 }
 
 .bloc-items:hover {
