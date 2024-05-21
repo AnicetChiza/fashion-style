@@ -206,14 +206,6 @@ header .header-content .header-items:hover {
 
 /*** ABOUT US ***/
 
-.about-us h3 {
-    text-align: center;
-}
-
-.about-us h4 {
-    margin: auto;
-}
-
 .about-us i {
     font-size: 2.5rem;
     font-style: italic;
@@ -222,7 +214,6 @@ header .header-content .header-items:hover {
 
 .about-us p {
     margin-top: 15px;
-    text-align: center;
     font-weight: 500;
 }
 
@@ -243,14 +234,25 @@ header .header-content .header-items:hover {
 /*** WRAPPER ***/
 
 .wrapper {
+    position: sticky;
+    width: 100%;
     margin-top: 70px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../images/objectif/bg.jpg');
 }
 
 .wrapper-container {
     display: flex;
     gap: 10px;
+    width: 100%;
+    height: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
     -webkit-column-gap: 10px;
     justify-content: space-between;
+    background-color: #00000084;
 }
 
 .wrapper-container .counter {
@@ -263,8 +265,13 @@ header .header-content .header-items:hover {
 
 .wrapper-container .counter p,
 span {
-    color: var(--blueColor);
+    color: #fff;
     font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+}
+
+.wrapper-container .counter span {
+    font-size: 1.5rem;
 }
 
 
@@ -411,7 +418,7 @@ span {
 .newsletter {
     padding-top: 40px;
     padding-bottom: 40px;
-    background: linear-gradient(to right, var(--blueShadow) 0%, var(--grayColor) 100%), url('../images/objectif/news-letter.jpg') no-repeat;
+    background: linear-gradient(to right, #00000084 0%, #ffffffc6 100%), url('../images/objectif/news-letter.jpg') no-repeat;
     background-size: cover;
 }
 
