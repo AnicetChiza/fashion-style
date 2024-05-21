@@ -291,16 +291,36 @@ span {
     -webkit-column-gap: 10px;
 }
 
-.choose-us-items {
+.choose-us-items {}
+
+.choose-us-containt {
     display: flex;
     gap: 10px;
-    margin-top: 15px;
+    padding-top: 25px;
     -webkit-column-gap: 10px;
 }
 
 .choose-us-items h5 {
     margin-bottom: 10px;
     font-family: "Montserrat", sans-serif;
+}
+
+.choose-us-items .top-lines {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    -webkit-column-gap: 5px;
+}
+
+.choose-us-items .top-lines h1 {
+    width: 40px;
+    border-bottom: 2px solid #000;
+}
+
+.choose-us-items .top-lines h2 {
+    width: 100%;
+    margin-top: 0;
+    border-bottom: 2px solid #cbcfd5;
 }
 
 .choose-us-items i {
