@@ -287,8 +287,8 @@ span {
 .choose-us-container {
     display: grid;
     grid-template-columns: auto auto;
-    gap: 10px;
-    -webkit-column-gap: 10px;
+    gap: 20px;
+    -webkit-column-gap: 20px;
 }
 
 .choose-us-items {}
@@ -324,8 +324,8 @@ span {
 }
 
 .choose-us-items i {
-    font-size: 2rem;
-    color: #064469;
+    font-size: 2.5rem;
+    color: #000;
 }
 
 
