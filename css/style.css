@@ -112,7 +112,6 @@ header .header-content .header-items .tooltip {
     position: absolute;
     top: -220%;
     opacity: 0;
-    font-size: 14px;
     border-radius: 4px;
     transition: all 0.3s;
     padding: 10px 10px;
