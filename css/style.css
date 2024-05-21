@@ -300,15 +300,12 @@ span {
 
 .choose-us-items h5 {
     margin-bottom: 10px;
-    color: var(--blueColor);
+    font-family: "Montserrat", sans-serif;
 }
 
 .choose-us-items i {
     font-size: 2rem;
-}
-
-.choose-us-items i:hover {
-    box-shadow: inset 7px 7px 8px #cbcfd5, inset -7px -7px 8px #eff3f9;
+    color: #064469;
 }
 
 
