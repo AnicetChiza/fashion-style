@@ -291,7 +291,9 @@ span {
     -webkit-column-gap: 20px;
 }
 
-.choose-us-items {}
+.choose-us-items {
+    margin-top: 15px;
+}
 
 .choose-us-containt {
     display: flex;
@@ -326,6 +328,14 @@ span {
 .choose-us-items i {
     font-size: 2.5rem;
     color: #000;
+}
+
+.choose-us-items .choose-us-containt div strong {
+    font-weight: 700;
+}
+
+.choose-us-items .choose-us-containt div p {
+    margin-top: 10px;
 }
 
 
