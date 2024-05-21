@@ -50,23 +50,19 @@ h2 {
 }
 
 h3 {
-    font-size: 1.5rem;
-}
-
-h3 {
     font-weight: 700;
     margin-top: 10px;
     margin-bottom: 10px;
     font-weight: 700;
-    color: var(--blueColor);
+    font-size: 1.5rem;
+    color: #000;
     font-family: "Montserrat", sans-serif;
 }
 
 h4 {
     width: 100px;
-    border-radius: 10px;
     margin-bottom: 20px;
-    border-bottom: 5px solid var(--blueColor);
+    border-bottom: 5px solid #000;
 }
 
 
@@ -275,13 +271,20 @@ span {
 
 /*** CHOOSE US ***/
 
-.choose-us h3 {
-    text-align: center;
+.choose-us-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 40px;
+    -webkit-column-gap: 10px;
+    justify-content: center;
 }
 
-.choose-us h4 {
-    margin: auto;
-    margin-bottom: 10px;
+.choose-us-title h5 {
+    width: 70px;
+    height: 3px;
+    background-color: #cbcfd5;
 }
 
 .choose-us-container {
