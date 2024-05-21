@@ -215,32 +215,35 @@ header .header-content .header-items:hover {
 
 .about-us i {
     font-size: 1.5rem;
-    color: var(--grayColor);
+    color: #dde1e7;
 }
 
 .bloc-items {
     padding: 20px 40px;
     background-color: #fff;
     border-radius: 10px;
+    transition: 400ms;
     box-shadow: 0px 1px 10px #dde1e7;
 }
 
 .about-us-second-bloc {
     display: grid;
-    gap: 20px;
-    -webkit-column-gap: 20px;
+    gap: 25px;
+    -webkit-column-gap: 25px;
     grid-template-columns: auto auto;
 }
 
-.about-item1,
-.about-item2 {
+.about-item1 {
     display: grid;
-    gap: 20px;
-    -webkit-column-gap: 20px;
+    gap: 25px;
+    -webkit-column-gap: 25px;
+    margin-top: 20px;
+    height: fit-content;
 }
 
-.about-item1 {
-    margin-top: 30px;
+.about-item2 {
+    display: grid;
+    margin-top: 25px;
 }
 
 
