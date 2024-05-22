@@ -301,6 +301,7 @@ header .header-content .header-items:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-image: url('../images/objectif/bg.jpg');
+    clip-path: polygon(100% 60%, 50% 100%, 0 65%, 0 1%, 50% 22%, 100% 0);
 }
 
 .wrapper-container {
