@@ -207,7 +207,14 @@ header .header-content .header-items:hover {
 
 /*** ABOUT US ***/
 
-.about-us-container {}
+.about-us-container {
+    display: grid;
+    align-items: center;
+    gap: 25px;
+    margin-top: 30px;
+    -webkit-column-gap: 25px;
+    grid-template-columns: auto auto;
+}
 
 .about-us-first-bloc h3 {
     width: fit-content;
@@ -222,7 +229,6 @@ header .header-content .header-items:hover {
 }
 
 .bloc-items {
-    width: 40%;
     height: fit-content;
     padding: 20px 40px;
     border-radius: 10px;
@@ -233,22 +239,6 @@ header .header-content .header-items:hover {
 
 .bloc-items:hover {
     transform: scale(1.03);
-}
-
-.bloc-items:nth-child(1) {
-    margin-top: 80px;
-}
-
-.bloc-items:nth-child(2) {
-    margin-top: -160px;
-}
-
-.bloc-items:nth-child(3) {
-    margin-top: -160px;
-}
-
-.bloc-items:nth-child(4) {
-    margin-top: -160px;
 }
 
 .bloc-items div {
@@ -271,10 +261,20 @@ header .header-content .header-items:hover {
 }
 
 .about-us-second-bloc {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
+    display: grid;
+    gap: 25px;
+    -webkit-column-gap: 25px;
+    grid-template-columns: auto auto;
+}
+
+.itm1 {
+    display: grid;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.itm2 {
+    display: grid;
 }
 
 
