@@ -88,8 +88,7 @@ header {
     left: 50%;
     z-index: 3;
     transform: translate(-50%, -50%);
-    background-color: #f4f4f4;
-    box-shadow: 0px 1px 10px var(--grayColor);
+    background-color: #dde1e7;
 }
 
 header .header-content {
@@ -358,8 +357,8 @@ span {
 }
 
 .choose-us-title h5 {
-    width: 70px;
-    height: 3px;
+    width: 50px;
+    height: 2px;
     background-color: #cbcfd5;
 }
 
@@ -537,7 +536,7 @@ span {
     display: grid;
     gap: 20px;
     -webkit-column-gap: 20px;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto auto;
 }
 
 .blog-item {
@@ -690,16 +689,27 @@ textarea {
 }
 
 form .submit {
+    display: flex;
+    justify-content: center;
+}
+
+form .submit button {
     border: none;
     outline: none;
     margin-top: 10px;
     background: unset;
-    padding: 15px 20px;
-    border-radius: 25px;
+    padding: 15px 30px;
     font-weight: 500;
+    font-weight: 700;
+    border-radius: 30px;
+    transition: 0.8s ease-in;
     color: var(--whiteColor);
-    font-family: "Poppins", sans-serif;
-    background-color: var(--blueColor);
+    background-color: #000000b5;
+    font-family: "Sulphur Point", sans-serif;
+}
+
+form .submit button:hover {
+    background-color: #000000d0;
 }
 
 
@@ -709,7 +719,7 @@ footer {
     text-align: center;
     padding-top: 40px;
     padding-bottom: 40px;
-    margin-bottom: 130px;
+    margin-bottom: 180px;
     background-color: var(--grayColor);
 }
 
