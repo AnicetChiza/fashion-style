@@ -418,6 +418,28 @@ span {
     text-align: center;
 }
 
+.product-item {
+    display: grid;
+    gap: 10px;
+    -webkit-column-gap: 10px;
+    grid-template-columns: auto auto auto auto;
+}
+
+.prod-details {
+    width: 100%;
+    padding: 20px 20px;
+    border: 1px solid #dde1e7;
+}
+
+.prod-details img {
+    width: 100%;
+    background-color: #dde1e7;
+}
+
+.stars i {
+    color: #aeae1a8b;
+}
+
 
 /*** NEWSLETTER ***/
 
