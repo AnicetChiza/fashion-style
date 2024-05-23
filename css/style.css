@@ -596,6 +596,16 @@ span {
     flex-direction: column;
 }
 
+.testimonial-item div h5 {
+    color: #000;
+    font-family: "Montserrat", sans-serif;
+}
+
+.testimonial-item div span {
+    color: #000;
+    font-family: "Sulphur Point", sans-serif;
+}
+
 .testimonial-item div p {
     margin-top: 15px;
     font-style: italic;
