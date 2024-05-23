@@ -284,12 +284,17 @@ header .header-content .header-items:hover {
 
 .goal {
     margin-top: 70px;
-    background-color: var(--grayColor);
 }
 
 .goal-items {
+    width: 60%;
     display: flex;
-    align-items: center;
+    margin: auto;
+    padding: 30px 30px;
+    background-color: #fff;
+    transform: rotate(20deg) skew(-8deg, -12deg);
+    box-shadow: #00000080 5px 3px, #00000066 10px 6px, #0000004d 15px 9px, #0000004d 20px 12px;
+    ;
 }
 
 
