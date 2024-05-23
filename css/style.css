@@ -603,34 +603,27 @@ span {
 
 .testimonial-item i {
     font-size: 1.5rem;
-    font-style: italic;
     font-weight: 600;
-    color: var(--blueColor);
+    color: #dde1e7;
 }
 
 .test-btn {
     display: flex;
     justify-content: center;
-    top: 50%;
     margin-top: 20px;
     gap: 10px;
-    -webkit-column-gap: 10px;
 }
 
-.test-btn button {
-    border: none;
-    outline: none;
-    font-size: 1.3rem;
-    padding: 10px 10px;
-    color: var(--blueColor);
-    background: #dde1e7;
+.test-btn .circle {
+    width: 15px;
+    height: 15px;
     cursor: pointer;
-    font-family: "Poppins", sans-serif;
-    box-shadow: inset 7px 7px 8px #cbcfd5, inset -7px -7px 8px #eff3f9;
+    border-radius: 50%;
+    background-color: #dde1e7;
 }
 
-.test-btn button:hover {
-    box-shadow: 7px 7px 8px #cbcfd5, -7px -7px 8px #eff3f9;
+.test-btn .circle.active {
+    background-color: #000;
 }
 
 

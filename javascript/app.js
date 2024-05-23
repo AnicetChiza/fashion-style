@@ -55,46 +55,46 @@ function startValueAnimation() {
     });
 }
 
-// Récupérer toutes les divs blog-items dans notre conteneur
-const blogItems = document.querySelectorAll('.blog-content .blog-items');
+document.addEventListener('DOMContentLoaded', () => {
+    const testimonials = document.querySelectorAll('.testimonial-item');
+    const circles = document.querySelectorAll('.circle');
+    let currentIndex = 0;
 
-// Initialiser un index pour suivre l'élément actuellement affiché
-let current = 0;
-
-// Cacher tous les éléments blog-items sauf le premier
-blogItems.forEach((item, index) => {
-    if (index !== current) {
-        item.style.display = 'none';
+    function showItem(index) {
+        testimonials[currentIndex].style.display = 'none';
+        circles[currentIndex].classList.remove('active');
+        testimonials[index].style.display = 'block';
+        circles[index].classList.add('active');
+        currentIndex = index;
     }
-});
 
-// Récupérer toutes les divs blog-items
-const blog = document.querySelectorAll('.testimonial-item');
-
-// Initialiser un index pour suivre l'image actuellement affichée
-let currents = 0;
-
-// Cacher toutes les divs blog-items sauf la première
-blog.forEach((item, index) => {
-    if (index !== currents) {
-        item.style.display = 'none';
+    function showNextItem() {
+        const nextIndex = (currentIndex + 1) % testimonials.length;
+        showItem(nextIndex);
     }
+
+    function showPreviousItem() {
+        const prevIndex = (currentIndex - 1 + testimonials.length) % testimonials.length;
+        showItem(prevIndex);
+    }
+
+    function goToItem(index) {
+        showItem(index);
+    }
+
+    // Initial display setup
+    testimonials.forEach((item, index) => {
+        if (index !== currentIndex) {
+            item.style.display = 'none';
+        }
+    });
+
+    circles.forEach((circle, index) => {
+        circle.addEventListener('click', () => {
+            goToItem(index);
+        });
+    });
+
+    // Auto-scroll functionality
+    setInterval(showNextItem, 9000);
 });
-
-// Fonction pour afficher l'élément suivant
-function showNextItem() {
-    blog[currents].style.display = 'none';
-    currents = (currents + 1) % blog.length;
-    blog[currents].style.display = 'block';
-}
-
-// Fonction pour afficher l'élément précédent
-function showPreviousItem() {
-    blog[currents].style.display = 'none';
-    currents = (currents - 1 + blog.length) % blog.length;
-    blog[currents].style.display = 'block';
-}
-
-// Ajouter des écouteurs d'événements aux boutons Précédent et Suivant
-document.querySelector('.prevButton').addEventListener('click', showPreviousItem);
-document.querySelector('.nextButton').addEventListener('click', showNextItem);
