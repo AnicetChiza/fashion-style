@@ -426,14 +426,19 @@ span {
 }
 
 .prod-details {
-    width: 100%;
-    padding: 20px 20px;
+    padding: 20px;
     border: 1px solid #dde1e7;
 }
 
 .prod-details img {
     width: 100%;
+    margin-bottom: 10px;
     background-color: #dde1e7;
+    transition: transform 0.5s ease;
+}
+
+.prod-details:hover img {
+    transform: scale(1.11);
 }
 
 .stars i {
@@ -450,7 +455,7 @@ span {
     margin-top: 30px;
     padding: 10px 20px;
     cursor: pointer;
-    transition: 0.8s;
+    transition: transform 0.5s ease;
     background-color: #000000b5;
 }
 
