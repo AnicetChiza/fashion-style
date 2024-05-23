@@ -292,7 +292,6 @@ header .header-content .header-items:hover {
     margin: auto;
     transition: 0.8s;
     padding: 30px 30px;
-    background-color: #fff;
     transform: rotate(15deg) skew(-10deg, -5deg);
     box-shadow: #00000080 5px 3px, #00000066 10px 6px, #0000004d 15px 9px, #0000004c 20px 12px;
 }
@@ -466,13 +465,12 @@ span {
     margin-top: 30px;
     padding: 10px 20px;
     cursor: pointer;
-    transition: transform 0.5s ease;
+    transition: 0.8s ease-in;
     background-color: #000000b5;
 }
 
 .see-details:hover {
     background-color: #000000d0;
-    transform: translateY(5px);
 }
 
 .see-details a {
@@ -523,7 +521,13 @@ span {
     outline: none;
     padding: 10px 15px;
     color: var(--whiteColor);
-    background-color: var(--blueColor);
+    transition: 0.8s ease-in;
+    background-color: #000000b5;
+    font-family: "Sulphur Point", sans-serif;
+}
+
+.newsletter-items form .send:hover {
+    background-color: #000000d0;
 }
 
 
@@ -554,18 +558,8 @@ span {
 
 .blog-item div span {
     font-size: 0.8rem;
-}
-
-.blog a {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    width: fit-content;
-    margin: auto;
-    margin-top: 20px;
-    padding: 15px 30px;
-    color: var(--whiteColor);
-    background-color: var(--blueColor);
+    color: #000;
+    font-family: "Sulphur Point", sans-serif;
 }
 
 
