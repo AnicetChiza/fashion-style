@@ -230,15 +230,14 @@ header .header-content .header-items:hover {
 
 .bloc-items {
     height: fit-content;
-    padding: 20px 40px;
-    border-radius: 10px;
+    padding: 40px 60px;
     transition: 400ms;
     background: #c1c1c218;
     box-shadow: inset -7px -7px 8px #e6e7e812, inset 7px 7px 8px #cbcfd591;
 }
 
 .bloc-items:hover {
-    transform: scale(1.03);
+    transform: scale(1.02);
 }
 
 .bloc-items div {
@@ -269,12 +268,15 @@ header .header-content .header-items:hover {
 
 .itm1 {
     display: grid;
-    gap: 20px;
-    margin-top: 50px;
+    gap: 25px;
+    -webkit-column-gap: 25px;
 }
 
 .itm2 {
     display: grid;
+    gap: 25px;
+    margin-top: 30px;
+    -webkit-column-gap: 25px;
 }
 
 
@@ -438,7 +440,7 @@ span {
 }
 
 .prod-details:hover img {
-    transform: scale(1.11);
+    transform: scale(1.1);
 }
 
 .stars i {
@@ -474,7 +476,7 @@ span {
 .newsletter {
     padding-top: 40px;
     padding-bottom: 40px;
-    background: linear-gradient(to right, #00000084 0%, #ffffffc6 100%), url('../images/objectif/news-letter.jpg') no-repeat;
+    background: linear-gradient(to right, #000000b5 0%, #dde1e7 100%), url('../images/objectif/news-letter.jpg') no-repeat;
     background-size: cover;
 }
 
