@@ -308,26 +308,28 @@ header .header-content .header-items:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-image: url('../images/objectif/bg.jpg');
-    clip-path: polygon(100% 50%, 50% 100%, 0 50%, 0 1%, 50% 20%, 100% 0);
+    clip-path: polygon(100% 50%, 50% 100%, 0 50%, 0 1%, 50% 0, 100% 0);
 }
 
 .wrapper-container {
-    display: flex;
-    gap: 10px;
     width: 100%;
     height: 100%;
-    padding-top: 80px;
-    padding-bottom: 130px;
-    -webkit-column-gap: 10px;
+    gap: 10px;
+    display: flex;
+    text-align: center;
     justify-content: space-between;
+    -webkit-column-gap: 10px;
     background-color: #000000b5;
 }
 
 .wrapper-container .counter {
     display: flex;
     flex-direction: column;
-    text-align: center;
     gap: 10px;
+    width: 100%;
+    height: 100%;
+    padding: 70px 0px;
+    border: 1px solid red;
     -webkit-column-gap: 10px;
 }
 
@@ -759,5 +761,32 @@ footer .media-sociaux a:hover {
     }
     .goal-items {
         width: 90%;
+    }
+}
+
+@media screen and (max-width: 1030px) {
+    .blog-container {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .product-item {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .testimonial-item div {
+        width: 100%;
+    }
+    .about-us-second-bloc {
+        display: grid;
+        gap: 5px;
+        -webkit-column-gap: 5px;
+        grid-template-columns: auto;
+    }
+    .about-us-first-bloc h3 {
+        display: flex;
+        justify-content: center;
     }
 }
