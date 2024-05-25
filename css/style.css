@@ -78,6 +78,7 @@
         z-index: 3;
         transform: translate(-50%, -50%);
         background-color: #dde1e7;
+        box-shadow: 0px 1px 10px #0000003d;
     }
     
     header .header-content {
@@ -848,8 +849,13 @@
             top: 95%;
             margin-top: 0;
             border-radius: 0;
+            padding: 25px 40px;
             border-top-left-radius: 15px;
             border-top-right-radius: 15px;
+        }
+        header .header-content {
+            gap: 50px;
+            -webkit-column-gap: 45px;
         }
     }
     
