@@ -772,12 +772,9 @@ footer .media-sociaux a:hover {
 }
 
 @media screen and (max-width: 930px) {
-    .product-item {
-        display: grid;
-        grid-template-columns: auto auto;
-    }
-    .testimonial-item div {
-        width: 100%;
+    .about-us-first-bloc {
+        display: flex;
+        justify-content: center;
     }
     .about-us-second-bloc {
         display: grid;
@@ -798,8 +795,22 @@ footer .media-sociaux a:hover {
         display: flex;
         justify-content: center;
     }
+    .product-item {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .testimonial-item div {
+        width: 100%;
+    }
     .contact-container {
         display: flex;
         flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .choose-us-container {
+        display: grid;
+        grid-template-columns: auto;
     }
 }
