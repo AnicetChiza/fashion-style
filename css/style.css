@@ -789,22 +789,30 @@
     }
     
     @media screen and (max-width: 650px) {
+        .paddings {
+            padding: 20px 20px;
+        }
         .goal-items {
             width: 100%;
-            transform: rotate(15deg) skew(2deg, -10deg);
+            transform: rotate(0deg) skew(0deg, 0deg);
         }
         .wrapper {
-            clip-path: polygon(0 0, 100% 21%, 100% 76%, 0 53%);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
         }
         .wrapper-container {
             display: flex;
+            height: 40vh;
             flex-direction: column;
+            justify-content: center;
         }
         .wrapper-container .counter {
-            height: 100%;
-            padding: 30px;
+            height: fit-content;
+            padding: 0px;
+            margin-top: 20px;
         }
         .wrapper-container .counter span {
             font-size: 1rem;
         }
     }
+    
+    @media screen and (max-width: 600px) {}
