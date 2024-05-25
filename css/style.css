@@ -785,6 +785,15 @@ footer .media-sociaux a:hover {
         -webkit-column-gap: 5px;
         grid-template-columns: auto;
     }
+    .itm1 {
+        gap: 15px;
+        -webkit-column-gap: 15px;
+    }
+    .itm2 {
+        gap: 15px;
+        margin-top: 10px;
+        -webkit-column-gap: 15px;
+    }
     .about-us-first-bloc h3 {
         display: flex;
         justify-content: center;
