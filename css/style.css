@@ -193,7 +193,7 @@ header .header-content .header-items:hover {
 }
 
 .home-page .container p {
-    width: 50rem;
+    width: 70%;
     margin-top: 10px;
     font-size: 1.2rem;
     color: var(--grayColor);
