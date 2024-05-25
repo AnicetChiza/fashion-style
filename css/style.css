@@ -819,13 +819,6 @@
         h2 {
             font-size: 1.2rem;
         }
-        header {
-            padding: 25px 30px;
-        }
-        header .header-content {
-            gap: 50px;
-            -webkit-column-gap: 40px;
-        }
         .home-page .container p {
             width: 100%;
             font-size: 1rem;
@@ -846,6 +839,17 @@
             flex-direction: column;
             gap: 0;
             -webkit-column-gap: 0;
+        }
+    }
+    
+    @media screen and (max-width: 500px) {
+        header {
+            width: 100%;
+            top: 95%;
+            margin-top: 0;
+            border-radius: 0;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
         }
     }
     
