@@ -700,6 +700,7 @@
     footer .media-sociaux {
         display: flex;
         gap: 20px;
+        flex-wrap: wrap;
         justify-content: center;
     }
     
@@ -815,4 +816,36 @@
         }
     }
     
-    @media screen and (max-width: 600px) {}
+    @media screen and (max-width: 600px) {
+        h2 {
+            font-size: 1.2rem;
+        }
+        header {
+            padding: 25px 30px;
+        }
+        header .header-content {
+            gap: 50px;
+            -webkit-column-gap: 40px;
+        }
+        .home-page .container p {
+            width: 100%;
+            font-size: 1rem;
+        }
+        .bloc-items {
+            padding: 30px 30px;
+        }
+        .product-item {
+            display: grid;
+            grid-template-columns: auto;
+        }
+        .blog-container {
+            display: grid;
+            grid-template-columns: auto;
+        }
+        .form-input {
+            display: flex;
+            flex-direction: column;
+            gap: 0;
+            -webkit-column-gap: 0;
+        }
+    }
