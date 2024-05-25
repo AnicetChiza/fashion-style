@@ -502,12 +502,12 @@ span {
 
 .newsletter-items p {
     margin-top: 10px;
-    color: var(--whiteColor);
+    color: #fff;
 }
 
 .newsletter-items form {
     display: flex;
-    background-color: var(--whiteColor);
+    background-color: #fff;
 }
 
 .newsletter-items form .news-input {
@@ -772,6 +772,9 @@ footer .media-sociaux a:hover {
 }
 
 @media screen and (max-width: 930px) {
+    .home-page .container p {
+        width: 100%;
+    }
     .about-us-first-bloc {
         display: flex;
         justify-content: center;
@@ -812,5 +815,17 @@ footer .media-sociaux a:hover {
     .choose-us-container {
         display: grid;
         grid-template-columns: auto;
+    }
+    .newsletter-items {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .goal-items {
+        width: 100%;
+        transform: rotate(15deg) skew(2deg, -2deg);
     }
 }
