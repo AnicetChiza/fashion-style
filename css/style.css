@@ -231,8 +231,7 @@ header .header-content .header-items:hover {
     height: fit-content;
     padding: 40px 60px;
     transition: 400ms;
-    background: #c1c1c218;
-    box-shadow: inset -7px -7px 8px #e6e7e812, inset 7px 7px 8px #cbcfd591;
+    box-shadow: 0px 1px 10px #dde1e7;
 }
 
 .bloc-items:hover {
@@ -286,7 +285,7 @@ header .header-content .header-items:hover {
 }
 
 .goal-items {
-    width: 60%;
+    width: 70%;
     display: flex;
     margin: auto;
     transition: 0.8s;
@@ -321,7 +320,7 @@ header .header-content .header-items:hover {
     padding-bottom: 130px;
     -webkit-column-gap: 10px;
     justify-content: space-between;
-    background-color: #00000084;
+    background-color: #000000b5;
 }
 
 .wrapper-container .counter {
@@ -589,7 +588,7 @@ span {
 }
 
 .testimonial-item div {
-    width: 60rem;
+    width: 60%;
     margin: auto;
     margin-top: 20px;
     display: flex;
@@ -598,6 +597,7 @@ span {
 
 .testimonial-item div h5 {
     color: #000;
+    margin-top: 20px;
     font-family: "Montserrat", sans-serif;
 }
 
@@ -622,11 +622,12 @@ span {
     justify-content: center;
     margin-top: 20px;
     gap: 10px;
+    -webkit-column-gap: 10px;
 }
 
 .test-btn .circle {
-    width: 15px;
-    height: 15px;
+    width: 12px;
+    height: 12px;
     cursor: pointer;
     border-radius: 50%;
     background-color: #dde1e7;
@@ -720,7 +721,7 @@ footer {
     padding-top: 40px;
     padding-bottom: 40px;
     margin-bottom: 180px;
-    background-color: var(--grayColor);
+    background-color: #dde1e7;
 }
 
 footer p {
@@ -743,4 +744,20 @@ footer .media-sociaux a {
 
 footer .media-sociaux a:hover {
     box-shadow: inset 7px 7px 8px #cbcfd5, inset -7px -7px 8px #eff3f9;
+}
+
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 1100px) {
+    .paddings {
+        padding: 20px 50px;
+    }
+    .about-us-container {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .goal-items {
+        width: 90%;
+    }
 }
