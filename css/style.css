@@ -847,9 +847,12 @@
     
     @media screen and (max-width: 500px) {
         header {
-            width: 90%;
+            bottom: 0;
+            left: 50%;
+            top: 90%;
             border-radius: 0;
             padding: 25px 40px;
+            transform: translateX(-50%);
             border-top-left-radius: 10px;
             border-top-right-radius: 10px;
         }
