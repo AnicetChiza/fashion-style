@@ -850,6 +850,7 @@
             width: 90%;
             border-radius: 0;
             padding: 25px 40px;
+            border-radius: 10px;
         }
         header .header-content {
             gap: 50px;
