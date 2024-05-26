@@ -9,6 +9,10 @@
         box-sizing: border-box;
     }
     
+    html {
+        scroll-behavior: smooth;
+    }
+    
     input,
     textarea {
         outline: none;
@@ -851,6 +855,7 @@
             border-radius: 0;
             padding: 25px 40px;
             border-radius: 10px;
+            top: 90%;
         }
         header .header-content {
             gap: 50px;
