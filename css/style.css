@@ -858,7 +858,7 @@
         }
         header .header-content {
             gap: 50px;
-            -webkit-column-gap: 45px;
+            -webkit-column-gap: 50px;
         }
     }
     
