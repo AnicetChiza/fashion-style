@@ -132,9 +132,18 @@ header .header-content .header-items:hover {
 
 /* Blog details */
 
+.blog-item {
+    display: grid;
+    gap: 20px;
+    -webkit-column-gap: 20px;
+    grid-template-columns: auto auto auto
+}
+
 .blog-details {
     width: 100%;
-    box-shadow: 0px 1px 10px #cacacae5;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 0px 1px 10px #dde1e7;
 }
 
 .blog-details img {
@@ -154,3 +163,43 @@ header .header-content .header-items:hover {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+
+/* Blog footer */
+
+footer {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 80px;
+    margin-bottom: 180px;
+    background-color: #dde1e7;
+}
+
+footer p {
+    margin-bottom: 20px;
+}
+
+footer .media-sociaux {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer .media-sociaux a {
+    padding: 12px 16px;
+    border-radius: 50%;
+    color: var(--blueColor);
+    background: #dde1e7;
+    box-shadow: 7px 7px 8px #cbcfd5, -7px -7px 8px #eff3f9;
+}
+
+footer .media-sociaux a:hover {
+    box-shadow: inset 7px 7px 8px #cbcfd5, inset -7px -7px 8px #eff3f9;
+}
+
+
+/* MEDIA QUERY */
