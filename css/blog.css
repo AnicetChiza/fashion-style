@@ -120,11 +120,37 @@ header .header-content .header-items:hover {
     clip-path: polygon(0 0, 100% 0, 100% 70%, 0% 100%);
 }
 
-.blog-item {
+.home-item {
     width: 60%;
     text-align: center;
 }
 
-.blog-item p {
+.home-item p {
     margin-top: 20px;
+}
+
+
+/* Blog details */
+
+.blog-details {
+    width: 100%;
+    box-shadow: 0px 1px 10px #cacacae5;
+}
+
+.blog-details img {
+    width: 100%;
+}
+
+.blog-details div {
+    padding: 30px 30px;
+}
+
+.blog-details div span {
+    color: #89949ee5;
+}
+
+.blog-details div h5 {
+    color: #779fa8fd;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
