@@ -253,19 +253,6 @@
         -webkit-column-gap: 25px;
         grid-template-columns: auto auto;
     }
-    
-    .itm1 {
-        display: grid;
-        gap: 25px;
-        -webkit-column-gap: 25px;
-    }
-    
-    .itm2 {
-        display: grid;
-        gap: 25px;
-        margin-top: 30px;
-        -webkit-column-gap: 25px;
-    }
     /*** OBJECTIF ***/
     
     .goal {
@@ -756,15 +743,6 @@
             gap: 5px;
             -webkit-column-gap: 5px;
             grid-template-columns: auto;
-        }
-        .itm1 {
-            gap: 15px;
-            -webkit-column-gap: 15px;
-        }
-        .itm2 {
-            gap: 15px;
-            margin-top: 10px;
-            -webkit-column-gap: 15px;
         }
         .about-us-first-bloc h3 {
             display: flex;
