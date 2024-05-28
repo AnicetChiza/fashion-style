@@ -740,8 +740,8 @@
         }
         .about-us-second-bloc {
             display: grid;
-            gap: 5px;
-            -webkit-column-gap: 5px;
+            gap: 15px;
+            -webkit-column-gap: 15px;
             grid-template-columns: auto;
         }
         .about-us-first-bloc h3 {
