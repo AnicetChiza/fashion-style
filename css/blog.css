@@ -141,6 +141,7 @@ header .header-content .header-items:hover {
 
 .blog-details {
     width: 100%;
+    height: fit-content;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     box-shadow: 0px 1px 10px #dde1e7;
@@ -203,3 +204,20 @@ footer .media-sociaux a:hover {
 
 
 /* MEDIA QUERY */
+
+@media screen and (max-width: 1100px) {
+    .paddings {
+        padding: 20px 50px;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .home-item {
+        width: 100%;
+        padding: 20px 50px;
+    }
+    .blog-item {
+        display: grid;
+        grid-template-columns: auto auto
+    }
+}
