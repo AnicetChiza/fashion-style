@@ -219,7 +219,7 @@
     
     .bloc-items {
         height: fit-content;
-        padding: 40px 60px;
+        padding: 40px 40px;
         transition: 400ms;
         box-shadow: 0px 1px 10px #dde1e7;
     }
