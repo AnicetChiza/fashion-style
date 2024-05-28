@@ -380,7 +380,8 @@
     }
     
     .choose-us-items .choose-us-containt div strong {
-        font-weight: 700;
+        font-size: 0.8rem;
+        font-family: "Montserrat", sans-serif;
     }
     
     .choose-us-items .choose-us-containt div p {
