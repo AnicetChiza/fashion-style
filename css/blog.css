@@ -164,6 +164,33 @@ header .header-content .header-items:hover {
 }
 
 
+/* Blog pagination */
+
+.pagination {
+    display: flex;
+    margin-top: 20px;
+    gap: 5px;
+    -webkit-column-gap: 5px;
+    justify-content: center;
+}
+
+.pagination button {
+    border: none;
+    outline: none;
+    color: #000;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #dde1e7;
+    font-family: "Sulphur Point", sans-serif;
+}
+
+.pagination button:hover {
+    color: #fff;
+    background-color: #779fa8fd;
+}
+
+
 /* Blog footer */
 
 footer {
