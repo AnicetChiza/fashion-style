@@ -142,8 +142,6 @@ header .header-content .header-items:hover {
 .blog-details {
     width: 100%;
     height: fit-content;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
     box-shadow: 0px 1px 10px #dde1e7;
 }
 
