@@ -213,6 +213,21 @@ header .header-content .header-items:hover {
 }
 
 
+/* commande */
+
+form input,
+select {
+    width: 100%;
+    border: none;
+    outline: none;
+    background: unset;
+    padding: 15px 20px;
+    margin-top: 10px;
+    border: 1px solid #cbcfd5;
+    font-family: "Sulphur Point", sans-serif;
+}
+
+
 /*** FOOTER ***/
 
 footer {
