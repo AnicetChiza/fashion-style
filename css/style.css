@@ -292,7 +292,7 @@
         text-align: center;
         justify-content: space-between;
         -webkit-column-gap: 10px;
-        background-color: #000000b5;
+        background-color: #282928f5;
     }
     
     .wrapper-container .counter {
@@ -787,14 +787,14 @@
         }
         .wrapper-container {
             display: flex;
-            height: 40vh;
+            height: 60vh;
             flex-direction: column;
             justify-content: center;
         }
         .wrapper-container .counter {
             height: fit-content;
             padding: 0px;
-            margin-top: 20px;
+            margin-top: 40px;
         }
         .wrapper-container .counter span {
             font-size: 1.5rem;
