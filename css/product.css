@@ -23,7 +23,7 @@ h2 {
 }
 
 .paddings {
-    padding: 20px 100px;
+    padding: 20px 200px;
 }
 
 body {
@@ -140,4 +140,56 @@ header .header-content .header-items:hover {
     background-color: #070707ef;
 }
 
-.prod-part .prod-part-container img {}
+.prod-part .prod-first-bloc {
+    width: 60%;
+}
+
+.prod-part .prod-first-bloc img {
+    width: 100%;
+    background-color: #dde1e7;
+}
+
+.prod-first-bloc div {
+    display: grid;
+    gap: 10px;
+    -webkit-column-gap: 10px;
+    grid-template-columns: auto auto auto auto;
+}
+
+.prod-first-bloc div img {
+    width: 100%;
+}
+
+.prod-part-item {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 20px;
+    -webkit-column-gap: 30px;
+}
+
+.prod-second-bloc h4 {
+    padding: 10px 15px;
+    color: #fff;
+    width: fit-content;
+    font-style: italic;
+    background-color: #07070785;
+}
+
+.prod-second-bloc .stars i {
+    color: #aeae1a8b;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+.prod-second-bloc p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.prod-second-bloc span {
+    font-style: italic;
+    font-weight: 700;
+    color: #89949ee5;
+}
