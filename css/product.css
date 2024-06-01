@@ -234,7 +234,13 @@ form .send {
     padding: 10px 20px;
     width: fit-content;
     border-radius: 20px;
-    background-color: #070707ef;
+    cursor: pointer;
+    transition: 0.8s ease-in;
+    background-color: #000000b5;
+}
+
+.send-request:hover {
+    background-color: #000000d0;
 }
 
 
