@@ -133,6 +133,11 @@ header .header-content .header-items:hover {
 
 /* product details */
 
+.prod-part-container {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
 .prod-part h3 {
     color: #fff;
     padding: 10px 25px;
