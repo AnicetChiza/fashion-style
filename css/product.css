@@ -158,13 +158,6 @@ header .header-content .header-items:hover {
     margin-bottom: 30px;
 }
 
-.prod-part h3 {
-    color: #fff;
-    padding: 10px 25px;
-    width: fit-content;
-    background-color: #070707ef;
-}
-
 .prod-part .prod-first-bloc {
     width: 100%;
 }
