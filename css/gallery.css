@@ -146,3 +146,43 @@ header .header-content .header-items:hover {
     -webkit-column-gap: 10px;
     grid-template-columns: auto auto auto auto;
 }
+
+
+/* Media query */
+
+@media screen and (max-width: 950px) {
+    .paddings {
+        padding: 20px 50px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .gallery .gallery-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .paddings {
+        padding: 20px 20px;
+    }
+    .gallery .gallery-container {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    header {
+        width: 90%;
+        border-radius: 0;
+        padding: 25px 40px;
+        border-radius: 10px;
+        top: 90%;
+    }
+    header .header-content {
+        gap: 50px;
+        -webkit-column-gap: 50px;
+    }
+}
