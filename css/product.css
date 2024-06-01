@@ -208,6 +208,7 @@ header .header-content .header-items:hover {
 
 form div {
     display: flex;
+    flex-direction: row;
     gap: 10px;
     -webkit-column-gap: 10px;
 }
@@ -281,3 +282,51 @@ footer .media-sociaux a:hover {
 
 
 /* MEDIA QUERY */
+
+@media screen and (max-width: 1150px) {
+    .paddings {
+        padding: 20px 50px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .prod-part-item {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .paddings {
+        padding: 20px 20px;
+    }
+    .product-container {
+        width: 100%;
+        padding: 20px;
+    }
+    form div {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        -webkit-column-gap: 0px;
+    }
+    form .send {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    header {
+        width: 90%;
+        border-radius: 0;
+        padding: 25px 40px;
+        border-radius: 10px;
+        top: 90%;
+    }
+    header .header-content {
+        gap: 50px;
+        -webkit-column-gap: 50px;
+    }
+}
