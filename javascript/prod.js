@@ -1,9 +1,11 @@
 //Changing image position for the product part
-const mainImage = document.querySelector('.main-image');
-const smallImage = document.querySelectorAll('.small-image');
+document.querySelectorAll('.prod-part-item').forEach(item => {
+    const mainImage = item.querySelector('.main-image');
+    const smallImages = item.querySelectorAll('.small-image');
 
-smallImage.forEach((smallImage, index) => {
-    smallImage.onclick = function() {
-        mainImage.src = smallImage.src;
-    };
+    smallImages.forEach(smallImage => {
+        smallImage.onclick = function() {
+            mainImage.src = smallImage.src;
+        };
+    });
 });
