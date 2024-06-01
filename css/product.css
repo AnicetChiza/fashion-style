@@ -129,3 +129,15 @@ header .header-content .header-items:hover {
 .product-home p {
     margin-top: 20px;
 }
+
+
+/* product details */
+
+.prod-part h3 {
+    color: #fff;
+    padding: 10px 25px;
+    width: fit-content;
+    background-color: #070707ef;
+}
+
+.prod-part .prod-part-container img {}
