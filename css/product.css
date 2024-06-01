@@ -151,8 +151,8 @@ header .header-content .header-items:hover {
 
 .prod-first-bloc div {
     display: grid;
-    gap: 10px;
-    -webkit-column-gap: 10px;
+    gap: 5px;
+    -webkit-column-gap: 5px;
     grid-template-columns: auto auto auto auto;
 }
 
