@@ -157,7 +157,7 @@
     text-align: center;
     justify-content: space-between;
     -webkit-column-gap: 10px;
-    background-color: #282928f5;
+    background: linear-gradient(to right, #282928f5 0%, #b1b0b0f3 100%);
 }
 
 .wrapper-container .counter {
