@@ -95,6 +95,11 @@
     font-style: italic;
 }
 
+.prod-second-bloc .price {
+    display: flex;
+    flex-direction: column;
+}
+
 .prod-second-bloc p {
     margin-top: 10px;
     margin-bottom: 10px;
