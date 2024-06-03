@@ -18,6 +18,10 @@
     text-align: center;
 }
 
+.product-home h3 {
+    color: #fff;
+}
+
 .product-home p {
     margin-top: 20px;
 }

@@ -17,6 +17,10 @@
     text-align: center;
 }
 
+.home-item h3 {
+    color: #fff;
+}
+
 .home-item p {
     margin-top: 20px;
 }
