@@ -81,7 +81,7 @@
     -webkit-column-gap: 30px;
 }
 
-.prod-second-bloc h4 {
+.prod-second-bloc h3 {
     padding: 10px 15px;
     color: #fff;
     width: fit-content;
@@ -109,7 +109,7 @@
 
 /* commande */
 
-.command h3 {
+.command h4 {
     color: #fff;
     padding: 10px 15px;
     width: fit-content;
