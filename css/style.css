@@ -616,7 +616,7 @@ form .submit button:hover {
     }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 655px) {
     .goal-items {
         width: 100%;
         transform: rotate(0deg) skew(0deg, 0deg);
