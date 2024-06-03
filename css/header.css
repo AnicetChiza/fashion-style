@@ -150,3 +150,68 @@ header .header-content .header-items:hover .tooltip {
 header .header-content .header-items:hover {
     transform: scale(0.9);
 }
+
+
+/*** FOOTER ***/
+
+footer {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 180px;
+    background-color: #dde1e7;
+}
+
+footer p {
+    margin-bottom: 20px;
+}
+
+footer .media-sociaux {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer .media-sociaux a {
+    padding: 12px 15px;
+    border-radius: 50%;
+    color: var(--blueColor);
+    background: #dde1e7;
+    box-shadow: 7px 7px 8px #cbcfd5, -7px -7px 8px #eff3f9;
+}
+
+footer .media-sociaux a:hover {
+    box-shadow: inset 7px 7px 8px #cbcfd5, inset -7px -7px 8px #eff3f9;
+}
+
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 1100px) {
+    .paddings {
+        padding: 20px 50px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .paddings {
+        padding: 20px 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    header {
+        width: 90%;
+        border-radius: 0;
+        padding: 25px 40px;
+        border-radius: 10px;
+        top: 90%;
+    }
+    header .header-content {
+        gap: 50px;
+        -webkit-column-gap: 50px;
+    }
+}
