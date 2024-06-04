@@ -66,14 +66,7 @@
     display: grid;
     gap: 10px;
     -webkit-column-gap: 10px;
-    grid-template-columns: auto auto auto auto;
-}
-
-.collection-container {
-    display: grid;
-    gap: 10px;
-    -webkit-column-gap: 10px;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto;
 }
 
 .collection-item {
