@@ -369,35 +369,10 @@ span {
 }
 
 
-/*** BLOG ***/
+/*** COLLECTION ***/
 
-.blog-container {
-    display: grid;
-    gap: 20px;
-    -webkit-column-gap: 20px;
-    grid-template-columns: auto auto auto auto;
-}
-
-.blog-item {
-    width: 100%;
-    margin-top: 20px;
-}
-
-.blog-item img {
-    width: 100%;
-}
-
-.blog-item div {
-    margin-top: 15px;
-    display: flex;
-    flex-direction: column;
-    gap: 7px;
-}
-
-.blog-item div span {
-    font-size: 0.8rem;
-    color: #000;
-    font-family: "Sulphur Point", sans-serif;
+.collection-item div img {
+    background-color: #dde1e7;
 }
 
 
