@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.0/css/boxicons.min.css">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Produits</title>
 </head>
@@ -36,7 +39,7 @@
         </div>
     </header>
 
-    <div class="product-home">
+    <div class="product-home" data-aos="fade-up" data-aos-duration="3000">
         <div class="product-container">
             <h3>Nos produits</h3>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi, numquam voluptatum. Natus temporibus voluptatum sapiente voluptates recusandae quod.</p>
@@ -49,7 +52,7 @@
                 <h1></h1>
                 <h2></h2>
             </div>
-            <div class="prod-part-item">
+            <div class="prod-part-item" data-aos="fade-up" data-aos-duration="3000">
                 <div class="prod-first-bloc">
                     <p><img class="main-image" src="../images/Produits/cagoule.png" alt=""></p>
                     <div>
@@ -85,7 +88,7 @@
                 <h1></h1>
                 <h2></h2>
             </div>
-            <div class="prod-part-item">
+            <div class="prod-part-item" data-aos="fade-up" data-aos-duration="3000">
                 <div class="prod-first-bloc">
                     <p><img class="main-image" src="../images/Produits/chaussette.png" alt=""></p>
                     <div>
@@ -121,7 +124,7 @@
                 <h1></h1>
                 <h2></h2>
             </div>
-            <div class="prod-part-item">
+            <div class="prod-part-item" data-aos="fade-up" data-aos-duration="3000">
                 <div class="prod-first-bloc">
                     <p><img class="main-image" src="../images/Produits/jamper.png" alt=""></p>
                     <div>
@@ -154,7 +157,7 @@
 
         <div class="command">
             <h4>Passez vos commandes</h4>
-            <form action="">
+            <form action="" data-aos="fade-up" data-aos-duration="3000">
                 <div class="identity">
                     <input type="text" placeholder="Votre nom">
                     <input type="email" placeholder="Votre address email">
@@ -190,7 +193,7 @@
         </div>
     </div>
 
-    <footer class="paddings">
+    <footer class="paddings" data-aos="fade-up" data-aos-duration="3000">
         <h3>FASHION KING AND QUEEN</h3>
         <p>We push Goma first and up</p>
         <div class="media-sociaux">
@@ -208,6 +211,9 @@
     </footer>
 
     <script src="../javascript/prod.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
