@@ -29,9 +29,32 @@
 
 /* collection details */
 
+.collection-page {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
 .first-class-text p {
     margin-top: 10px;
     margin-bottom: 20px;
+}
+
+.top-lines {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    -webkit-column-gap: 5px;
+}
+
+.top-lines h1 {
+    width: 40px;
+    border-bottom: 2px solid #000;
+}
+
+.top-lines h2 {
+    width: 100%;
+    margin-top: 0;
+    border-bottom: 2px solid #cbcfd5;
 }
 
 .first-bloc {
