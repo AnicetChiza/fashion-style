@@ -481,11 +481,12 @@ span {
     height: 12px;
     cursor: pointer;
     border-radius: 50%;
-    background-color: #dde1e7;
+    border: 1px solid #dde1e7;
 }
 
 .test-btn .circle.active {
     background-color: #000;
+    border: 1px solid #000;
 }
 
 
