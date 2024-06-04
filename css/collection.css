@@ -174,7 +174,7 @@
     }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
     .first-bloc {
         display: grid;
         grid-template-columns: auto;
