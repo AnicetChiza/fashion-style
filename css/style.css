@@ -383,7 +383,7 @@ span {
     border: 1px solid #dde1e7;
 }
 
-.collection-item .collection-img img {
+.collection-item div img {
     width: 100%;
     background-color: #dde1e7;
 }
