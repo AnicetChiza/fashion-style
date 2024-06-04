@@ -27,34 +27,10 @@
 }
 
 
-/* Blog details */
+/* collection details */
 
-.blog-item {
-    display: grid;
-    gap: 20px;
-    -webkit-column-gap: 20px;
-    grid-template-columns: auto auto auto
-}
 
-.blog-details {
-    width: 100%;
-    height: fit-content;
-    box-shadow: 0px 1px 10px #dde1e7;
-}
-
-.blog-details img {
-    width: 100%;
-}
-
-.blog-details div {
-    padding: 30px 30px;
-}
-
-.blog-details div span {
-    color: #89949ee5;
-}
-
-.blog-details div h5 {
+/*.blog-details div h5 {
     color: #779fa8fd;
     margin-top: 10px;
     margin-bottom: 10px;
