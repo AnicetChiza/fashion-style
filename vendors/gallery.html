@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.0/css/boxicons.min.css">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery</title>
 </head>
@@ -35,7 +38,7 @@
         </div>
     </header>
 
-    <div class="product-home">
+    <div class="product-home" data-aos="fade-up" data-aos-duration="3000">
         <div class="product-container">
             <h3>Notre gallery</h3>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi, numquam voluptatum. Natus temporibus voluptatum sapiente voluptates recusandae quod.</p>
@@ -43,7 +46,7 @@
     </div>
 
     <div class="gallery paddings">
-        <div class="gallery-container">
+        <div class="gallery-container" data-aos="fade-up" data-aos-duration="3000">
             <p><img src="../images/gallery/img1.jpg" alt=""></p>
             <p><img src="../images/gallery/img10.jpg" alt=""></p>
             <p><img src="../images/gallery/img11.jpg" alt=""></p>
@@ -82,7 +85,7 @@
         </div>
     </div>
 
-    <footer class="paddings">
+    <footer class="paddings" data-aos="fade-up" data-aos-duration="3000">
         <h3>FASHION KING AND QUEEN</h3>
         <p>We push Goma first and up</p>
         <div class="media-sociaux">
@@ -98,6 +101,10 @@
             <p>© 2024 <span style="color: #000; font-weight: 700;">Fashion King and Queen.</span> All rights reserved. <br>Developed with ❤️ and ☕ by <a href="www.nguvutech.com">NGUVU TECH</a></p>
         </div>
     </footer>
+
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
