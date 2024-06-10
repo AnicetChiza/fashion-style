@@ -44,3 +44,42 @@ section .dashboard-item i {
     color: var(--blueColor);
     box-shadow: inset 7px 7px 13px #d7d7d7, inset -7px -7px 13px #c1c1c1;
 }
+
+
+/* Gallery part */
+
+.gallery {
+    padding: 50px 50px;
+}
+
+.gallery-container {
+    display: grid;
+    gap: 15px;
+    -webkit-column-gap: 15px;
+    grid-template-columns: auto auto auto auto;
+}
+
+.gallery-item {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.gallery-item img {
+    width: 100%;
+}
+
+.gallery-item div {
+    display: flex;
+    gap: 5px;
+    -webkit-column-gap: 5px;
+    justify-content: flex-end;
+}
+
+.gallery div button {
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    color: #fff;
+    background-color: #141414;
+    font-family: "Sulphur Point", sans-serif;
+}
