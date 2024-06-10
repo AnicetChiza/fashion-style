@@ -4,8 +4,15 @@ section {
     width: 100%;
     height: 100vh;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+}
+
+section .dashboard-content {
+    display: grid;
+    gap: 15px;
+    -webkit-column-gap: 15px;
+    grid-template-columns: auto auto auto;
 }
 
 section .dashboard-content div {
@@ -14,13 +21,26 @@ section .dashboard-content div {
 }
 
 section .dashboard-item {
-    padding: 20px 20px;
     display: flex;
-    flex-direction: column;
     text-align: center;
+    padding: 50px 120px;
+    flex-direction: column;
+    gap: 20px;
+    -webkit-column-gap: 20px;
 }
 
 section .dashboard-item i,
 span {
     color: #000;
+}
+
+section .dashboard-item i {
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    width: fit-content;
+    border-radius: 35px;
+    background: #f2f2f2;
+    color: var(--blueColor);
+    box-shadow: inset 7px 7px 13px #d7d7d7, inset -7px -7px 13px #c1c1c1;
 }
