@@ -23,6 +23,7 @@ section .dashboard-content div {
 section .dashboard-item {
     display: flex;
     text-align: center;
+    justify-content: center;
     padding: 50px 120px;
     flex-direction: column;
     gap: 20px;
@@ -36,8 +37,7 @@ span {
 
 section .dashboard-item i {
     padding: 20px;
-    display: flex;
-    text-align: center;
+    margin: auto;
     width: fit-content;
     border-radius: 35px;
     background: #f2f2f2;
