@@ -16,7 +16,13 @@ html {
 
 input,
 textarea {
+    width: 100%;
+    border: none;
     outline: none;
+    background: unset;
+    padding: 15px 20px;
+    margin-top: 10px;
+    border: 1px solid var(--grayColor);
     font-family: "Sulphur Point", sans-serif;
 }
 
