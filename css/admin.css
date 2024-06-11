@@ -109,6 +109,9 @@ button {
     font-family: "Sulphur Point", sans-serif;
 }
 
+
+/* Formulaire */
+
 .formulaire {
     display: flex;
     align-items: center;
@@ -172,6 +175,10 @@ form .submit {
 /* Media query */
 
 @media screen and (max-width: 1130px) {
+    .prod-admin-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
     .formulaire {
         padding: 20px;
     }
@@ -180,9 +187,23 @@ form .submit {
     }
 }
 
+@media screen and (max-width: 850px) {
+    .prod-admin-container {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
+
 @media screen and (max-width: 750px) {
     .formulaire-container {
         width: 100%;
         padding: 20px 20px;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .prod-admin-container {
+        display: grid;
+        grid-template-columns: auto;
     }
 }
