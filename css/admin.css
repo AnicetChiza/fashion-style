@@ -85,9 +85,19 @@ section .dashboard-item i {
 .gallery-item div {
     display: flex;
     gap: 5px;
+    width: fit-content;
     -webkit-column-gap: 5px;
     font-family: "Sulphur Point", sans-serif;
     justify-content: flex-end;
+}
+
+.testimonial-item .btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 30px;
+    gap: 5px;
+    -webkit-column-gap: 5px;
 }
 
 button {
