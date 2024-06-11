@@ -167,3 +167,22 @@ form .submit {
     -webkit-column-gap: 5px;
     justify-content: flex-end;
 }
+
+
+/* Media query */
+
+@media screen and (max-width: 1130px) {
+    .formulaire {
+        padding: 20px;
+    }
+    .formulaire-container {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .formulaire-container {
+        width: 100%;
+        padding: 20px 20px;
+    }
+}
