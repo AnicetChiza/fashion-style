@@ -62,9 +62,8 @@ section .dashboard-item i {
     margin-bottom: 20px;
     padding: 15px 25px;
     border-radius: 10px;
-    color: #000;
-    background-color: #fff;
-    box-shadow: 0px 1px 10px #dde1e7;
+    color: #fff;
+    background-color: #000;
 }
 
 .gallery-container {
