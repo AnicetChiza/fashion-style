@@ -119,3 +119,26 @@ form .submit {
     color: #fff;
     background-color: #141414;
 }
+
+
+/* Produits */
+
+.prod-admin {
+    padding: 20px 20px;
+}
+
+.prod-admin-container {
+    padding: 20px;
+    border: 1px solid #dde1e7;
+}
+
+.prod-admin-item img {
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: #dde1e7;
+    transition: transform 0.5s ease;
+}
+
+.prod-admin-item img {
+    transform: scale(1.1);
+}
