@@ -52,12 +52,12 @@ section .dashboard-item i {
     padding: 50px 50px;
 }
 
-.add-image {
+.add {
     display: flex;
     justify-content: flex-end;
 }
 
-.add-image a {
+.add a {
     width: fit-content;
     margin-bottom: 20px;
     padding: 15px 25px;
