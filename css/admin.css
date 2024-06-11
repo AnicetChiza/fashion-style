@@ -240,3 +240,25 @@ form .submit {
         padding: 10px 15px;
     }
 }
+
+@media screen and (max-width: 560px) {
+    section {
+        padding: 20px;
+    }
+    section .dashboard-item {
+        padding: 50px 50px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    section {
+        height: 100%;
+    }
+    section .dashboard-content {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    section div {
+        width: 100%;
+    }
+}
