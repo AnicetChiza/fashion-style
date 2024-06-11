@@ -202,8 +202,14 @@ form .submit {
 }
 
 @media screen and (max-width: 590px) {
+    .prod-admin {
+        padding: 20px 20px;
+    }
     .prod-admin-container {
         display: grid;
         grid-template-columns: auto;
+    }
+    .add a {
+        padding: 10px 15px;
     }
 }
