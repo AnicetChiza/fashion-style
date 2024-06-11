@@ -175,6 +175,10 @@ form .submit {
 /* Media query */
 
 @media screen and (max-width: 1130px) {
+    .gallery-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
     .prod-admin-container {
         display: grid;
         grid-template-columns: auto auto auto;
@@ -188,6 +192,10 @@ form .submit {
 }
 
 @media screen and (max-width: 850px) {
+    .gallery-container {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
     .prod-admin-container {
         display: grid;
         grid-template-columns: auto auto;
@@ -202,6 +210,13 @@ form .submit {
 }
 
 @media screen and (max-width: 590px) {
+    .gallery {
+        padding: 20px 20px;
+    }
+    .gallery-container {
+        display: grid;
+        grid-template-columns: auto;
+    }
     .prod-admin {
         padding: 20px 20px;
     }
