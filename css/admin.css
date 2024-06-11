@@ -191,7 +191,19 @@ form .submit {
     }
 }
 
+@media screen and (max-width: 1000px) {
+    section .dashboard-item {
+        padding: 50px 90px;
+    }
+}
+
 @media screen and (max-width: 850px) {
+    section .dashboard-content {
+        display: grid;
+        gap: 15px;
+        -webkit-column-gap: 15px;
+        grid-template-columns: auto auto;
+    }
     .gallery-container {
         display: grid;
         grid-template-columns: auto auto;
